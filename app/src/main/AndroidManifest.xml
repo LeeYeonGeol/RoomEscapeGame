@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.roomescape"
+    android:versionCode="1"
+    android:versionName="1.1">
+
+
+    <application
+        android:name=".gv"
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity
+            android:name=".SelectStage"
+            android:screenOrientation="portrait">
+        </activity>
+        <activity
+            android:name=".MainActivity"
+            android:screenOrientation="portrait">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".Stage1"
+            android:label="Stage1"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".Stage2"
+            android:label="Stage2"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".Stage3"
+            android:label="Stage3"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".exit_password"
+            android:label="exit_password"
+            android:theme="@android:style/Theme.DeviceDefault.Light.Dialog" />
+        <activity android:name=".BackPressedPopup"
+            android:label=".BackPressedPopup"
+            android:screenOrientation="portrait"
+            android:theme="@android:style/Theme.DeviceDefault.Light.Dialog"/>
+        <activity android:name=".st2_baseball"
+            android:label=".st2_baseball"
+            android:theme="@android:style/Theme.DeviceDefault.Light.Dialog"/>
+        <activity android:name=".st2_clock_puzzle"
+            android:label=".clock_puzzle"
+            android:theme="@android:style/Theme.DeviceDefault.Light.Dialog"/>
+        <activity android:name=".st2_exit_puzzle"
+            android:label=".st2_exit_puzzle"
+            android:theme="@android:style/Theme.DeviceDefault.Light.Dialog"/>
+        <activity android:name=".st2_oil_puzzle"
+            android:label=".st2_oil_puzzle"
+            android:theme="@android:style/Theme.DeviceDefault.Light.Dialog"/>
+        <activity android:name=".coffer_pw"
+            android:label="coffer_pw"
+            android:theme="@android:style/Theme.DeviceDefault.Light.Dialog"/>
+        <activity android:name=".Stage3_door"
+            android:label="Stage3_door"
+            android:screenOrientation="portrait"></activity>
+
+        <activity android:name=".Stage3_window"
+            android:label="window"
+            android:screenOrientation="portrait"></activity>
+        <activity android:name=".Stage3_finger5"
+            android:label="finger5"
+            android:screenOrientation="portrait"></activity>
+        <activity android:name=".ItemBox"
+            android:theme="@android:style/Theme.Dialog"
+            />
+        <activity android:name=".Stage3_finger4"
+            android:label="finger4"
+            android:screenOrientation="portrait"
+            android:theme="@android:style/Theme.Dialog"></activity>
+        <activity android:name=".st2_carpet_puzzle"
+            android:theme="@android:style/Theme.DeviceDefault.Light.Dialog"/>
+        <activity android:name=".st2_number_puzzle"
+            android:theme="@android:style/Theme.DeviceDefault.Light.Dialog"></activity>
+        <activity android:name=".ItemBox_st1"
+            android:theme="@android:style/Theme.Dialog"
+            />
+        <activity android:name=".ItemBox_st2"
+            android:theme="@android:style/Theme.Dialog"
+            />
+
+    </application>
+
+</manifest>
